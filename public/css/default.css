@@ -1,0 +1,388 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+ html,
+ body {
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 18px;
+     height: 100%;
+     /*background-image: url(../img/fd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background: url('../img/etudiants.jpg');*/
+     /*background-size: cover;*/
+     /* background: -webkit-gradient(radial, center center, 0, center center, 460, from(#63d3ec), to(#47acca));*/
+     background: #d4e5e8;
+ }
+ 
+ #main-wrapper {
+     height: 100%;
+ }
+ 
+ .container {
+     color: rgba(0, 0, 0, 0.64);
+ }
+ 
+ .group-container {
+     margin-left: 50px;
+     margin-right: 50px;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-bottom: 20px;
+ }
+ 
+ .panel-heading {
+     padding: 20px;
+     text-align: center;
+     border-bottom: 1px solid #f1d5d536;
+ }
+ 
+ .panel-body,
+ .panel-footer {
+     padding: 20px;
+ }
+ 
+ .btn {
+     cursor: pointer
+ }
+ 
+ .panel-default {
+     margin-top: 20px;
+     background: #fff;
+     border-radius: 5px;
+     -webkit-box-shadow: 7px 11px 7px -9px rgba(0, 0, 0, 0.22);
+     -moz-box-shadow: 7px 11px 7px -9px rgba(0, 0, 0, 0.22);
+     box-shadow: 7px 11px 7px -9px rgba(0, 0, 0, 0.22);
+ }
+ 
+ .usr-c {
+     padding-top: 30px;
+ }
+ 
+ a:hover {
+     text-decoration: none;
+ }
+ /**********************************************************
+*           input
+**********************************************************/
+ 
+ input[type="file"] {
+     display: none;
+ }
+ 
+ .c-file-upload {
+     display: inline-block;
+     padding: 5px 10px;
+     cursor: pointer;
+ }
+ 
+ button {
+     text-decoration: none;
+ }
+ 
+ .label {
+     color: #c2c2c2;
+ }
+ /**********************************************************
+*           input
+**********************************************************/
+ 
+ .alert-danger,
+ .alert-success {
+     text-align: center;
+ }
+ 
+ .alert-success {
+     background: local;
+     color: #fff;
+ }
+ /********************************************************************************
+********************       NAVBAR       ****************************************
+*********************************************************************************/
+ 
+ .navbar {
+     background-color: #2F2727;
+     background-image: url(images/radial_bg.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727));
+     background: -webkit-radial-gradient(circle, #b7dae4, #2fa3c5);
+     background: -moz-radial-gradient(circle, #1a82f7, #2F2727);
+     background: -ms-radial-gradient(circle, #1a82f7, #2F2727);
+ }
+ 
+ .navbar-light .navbar-nav .nav-link {
+     font-size: 23px;
+     font-weight: 400;
+     border-radius: 5px;
+     margin-left: 10px;
+ }
+ 
+ @media (min-width:992px) {
+     .nav-item {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+         margin: 0 20px;
+     }
+     .menu-flex-item {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+         margin: 0 20px;
+     }
+     .mr-auto {
+         margin-right: auto!important;
+         margin-left: auto;
+     }
+ }
+ 
+ @media(max-width:991px) {
+     .menu-flex-item {
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         justify-content: flex-start;
+         margin: auto;
+         flex-direction: row;
+         border-bottom: 1px solid black;
+         width: 50%;
+     }
+     .nav-link {
+         margin-left: 20px;
+     }
+ }
+ 
+ #toggle-menu {
+     color: rgba(0, 0, 0, .5);
+     border: none;
+     cursor: pointer
+ }
+ 
+ .btn-outline-success {
+     color: #efb000;
+     background-color: #00030861;
+     background-image: none;
+     border-color: #17846a00;
+     cursor: pointer;
+ }
+ 
+ .btn-outline-success:hover {
+     color: #efb000;
+     background-color: #000308e1;
+     background-image: none;
+     border-color: #17846a00;
+ }
+ /********************************************************************************
+********************       WELCOME CONTENT      ****************************************
+*********************************************************************************/
+ 
+ .hello,
+ .message {
+     text-align: center;
+     padding: 2rem;
+ }
+ 
+ .menu-icon-list-bottom {
+     display: flex;
+     justify-content: space-around;
+     list-style-type: none;
+ }
+ 
+ .menu-icon-list-bottom li {
+     text-align: left;
+ }
+ 
+ .features {
+     font-size: 2em;
+ }
+ 
+ .welcome {
+     padding: 3em;
+ }
+ 
+ .fa-registered,
+ .fa-user,
+ .fa-users,
+ .fa-globe,
+ .fa-video-camera,
+ .fa-comments-o,
+ .fa-home,
+ .fa-sign-in,
+ .fa-sign-out,
+ .fa-at,
+ .fa-briefcase {
+     color: #1c5465;
+ }
+ 
+ @media(min-width:992px) {
+     .welcome .hello h2 {
+         line-height: 2em;
+     }
+     .description {
+         padding: 23px;
+         font-size: 1.2em;
+     }
+     .menu-icon-list {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         list-style-type: none;
+         padding-bottom: 3em;
+         margin: 0;
+     }
+     .menu-icon-list li {
+         width: 25%;
+         text-align: center;
+     }
+     .fixed-height {
+         padding: 2rem;
+     }
+ }
+ 
+ @media(max-width:991px) {
+     .menu-icon-list {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: flex-start;
+         list-style-type: none;
+         padding: 0;
+     }
+     .menu-icon-list li {
+         display: flex;
+         align-items: center;
+         width: 100%;
+         border-bottom: 1px solid #000;
+         justify-content: flex-start;
+     }
+     .icon-container {
+         text-align: left;
+         margin-right: 20px;
+         width: 80px;
+         padding: 10px;
+     }
+     .fa-4x {
+         font-size: 3em;
+     }
+ }
+ /********************************************************************************
+********************       Register & login   ****************************************
+*********************************************************************************/
+ 
+ .form-horizontal {
+     padding: 10px;
+ }
+ 
+ .register-panel,
+ .login-panel {
+     padding: 50px;
+ }
+ 
+ .register-form,
+ .login-form,
+ .register-modal-block,
+ .login-modal-block {
+     background: #fff;
+     border-radius: 10px;
+ }
+ 
+ .register-modal,
+ .login-modal {
+     opacity: 0;
+     transition: ease opacity 1s;
+ }
+ 
+ .register-modal-block,
+ .login-modal-block {
+     opacity: 1;
+ }
+ 
+ .register-infos,
+ .login-infos {
+     padding: 2em;
+     text-align: center;
+ }
+ 
+ .close-item {
+     text-align: right;
+ }
+ 
+ .fa-close {
+     padding: 5px;
+     cursor: pointer;
+     color: #de6309;
+ }
+ 
+ .fa-info-circle {
+     float: left;
+ }
+ /********************************************************************************
+********************       Register & login   ****************************************
+*********************************************************************************/
+ 
+ .profile-data {
+     padding-left: 10px;
+     font-size: 18px;
+ }
+ 
+ .profile {
+     display: flex;
+     align-items: baseline;
+ }
+ /********************************************************************************
+********************       groupes  ****************************************
+*********************************************************************************/
+ 
+ .show-group-panel {
+     background: #fff;
+     margin: 20px;
+     border-radius: 2px;
+     -webkit-box-shadow: 9px 9px 5px -9px rgba(0, 0, 0, 0.42);
+     -moz-box-shadow: 9px 9px 5px -9px rgba(0, 0, 0, 0.42);
+     box-shadow: 9px 9px 5px -9px rgba(0, 0, 0, 0.42);
+ }
+ 
+ .show-group-panel p {
+     margin: 20px;
+ }
+ 
+ .show-group-panel .panel-footer {
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .show-group-panel .panel-heading {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .show-group-panel .panel-heading a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ /********************************************************************************
+********************      chat  ****************************************
+*********************************************************************************/
+ 
+ .chat-window {
+     margin-top: 50px;
+ }
+ /********************************************************************************
+********************      POST  ****************************************
+*********************************************************************************/
+ 
+ .post-body {
+     margin: 0;
+     padding: 20px;
+     background: aliceblue;
+     border-radius: 5px;
+ }
+ 
+ .post-edit {
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 20px;
+ }
